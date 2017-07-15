@@ -1,0 +1,28 @@
+[
+  {id: 1,parent_company: '港外机构' ,name : '正宝物流', provide: '山东', city_name:'青岛'},
+  {id: 131,parent_company: '港外机构' ,name : '中商建开', provide: '山东', city_name:'青岛'},
+  {id: 801,parent_company: '青岛港集团' ,name : '前港公司', provide: '山东', city_name:'青岛'},
+  {id: 805,parent_company: '青岛港集团' ,name : 'QQCTN', provide: '山东', city_name:'青岛'},
+  {id: 1,parent_company: '港外机构' ,name : '正宝物流', provide: '山东', city_name:'青岛'},
+  {id: 131,parent_company: '港外机构' ,name : '中商建开', provide: '山东', city_name:'青岛'},
+  {id: 801,parent_company: '青岛港集团' ,name : '前港公司', provide: '山东', city_name:'青岛'},
+  {id: 805,parent_company: '青岛港集团' ,name : 'QQCTN', provide: '山东', city_name:'青岛'},
+  {id: 1,parent_company: '港外机构' ,name : '正宝物流', provide: '山东', city_name:'青岛'},
+  {id: 131,parent_company: '港外机构' ,name : '中商建开', provide: '山东', city_name:'青岛'},
+  {id: 801,parent_company: '青岛港集团' ,name : '前港公司', provide: '山东', city_name:'青岛'},
+  {id: 805,parent_company: '青岛港集团' ,name : 'QQCTN', provide: '山东', city_name:'青岛'},
+  {id: 1,parent_company: '港外机构' ,name : '正宝物流', provide: '山东', city_name:'青岛'},
+  {id: 131,parent_company: '港外机构' ,name : '中商建开', provide: '山东', city_name:'青岛'},
+  {id: 801,parent_company: '青岛港集团' ,name : '前港公司', provide: '山东', city_name:'青岛'},
+  {id: 805,parent_company: '青岛港集团' ,name : 'QQCTN', provide: '山东', city_name:'青岛'},
+  {id: 1,parent_company: '港外机构' ,name : '正宝物流', provide: '山东', city_name:'青岛'},
+  {id: 131,parent_company: '港外机构' ,name : '中商建开', provide: '山东', city_name:'青岛'},
+  {id: 801,parent_company: '青岛港集团' ,name : '前港公司', provide: '山东', city_name:'青岛'},
+  {id: 805,parent_company: '青岛港集团' ,name : 'QQCTN', provide: '山东', city_name:'青岛'},
+  {id: 1,parent_company: '港外机构' ,name : '正宝物流', provide: '山东', city_name:'青岛'},
+  {id: 131,parent_company: '港外机构' ,name : '中商建开', provide: '山东', city_name:'青岛'},
+  {id: 801,parent_company: '青岛港集团' ,name : '前港公司', provide: '山东', city_name:'青岛'},
+  {id: 805,parent_company: '青岛港集团' ,name : 'QQCTN', provide: '山东', city_name:'青岛'}
+
+
+]

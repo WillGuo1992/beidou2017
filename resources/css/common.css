@@ -1,0 +1,328 @@
+.bgff {
+    background-color: #FFFFFF;
+}
+
+.search-panel {
+    padding: 20px;
+    margin: 10px 30px;
+    text-align: center;
+    background-color: #FFF;
+}
+
+.contentWarp {
+    margin: 0 30px;
+    padding: 0 10px;
+    background-color: #FFF;
+}
+
+.table-panel {
+    margin: 0 30px;
+    padding: 0 10px;
+    background-color: #FFF;
+}
+
+.form-group {
+    margin-left: 30px;
+}
+
+.form-group .checkbox-con {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.form-group input[type=checkbox] {
+    display: inline-block;
+    margin: 0 4px 0 0;
+    vertical-align: middle;
+}
+
+.btn.btn-after-icon,
+.btn.btn-before-icon {
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.btn-before-icon:before {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    content: "";
+}
+
+.btn-after-icon:after {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    content: "";
+}
+
+.icon-search:after {
+    width: 16px;
+    height: 16px;
+    background: url(../images/search.png) center no-repeat;
+    background-size: 100%;
+}
+
+.icon-rest:after {
+    width: 16px;
+    height: 16px;
+    background: url(../images/refresh.png) center no-repeat;
+    background-size: 100%;
+}
+
+.icon-message:after {
+    width: 20px;
+    height: 13px;
+    background: url(../images/message.png) center no-repeat;
+    background-size: 100%;
+}
+
+.icon-add:after {
+    width: 16px;
+    height: 16px;
+    background: url(../images/addicon.png) center no-repeat;
+    background-size: 100%;
+}
+
+.form-inline .form-control.startTime,
+.form-inline .form-control.endTime {
+    width: 130px;
+}
+
+.check_radio {
+    margin: 0 0 0 10px;
+    display: inline-block;
+}
+
+.check_radio input {
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+}
+
+.radio_label {
+    display: inline-block;
+    text-align: left;
+    margin: 0 1rem 0 0;
+    cursor: pointer;
+}
+
+.radio_label .icon_radio {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/radio.png);
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+.radio_label.check .icon_radio {
+    background-image: url(../images/radio_check.png);
+}
+
+.checkbox_label {
+    display: inline-block;
+    text-align: left;
+    margin: 0 1rem 0 0;
+    cursor: pointer;
+}
+
+.checkbox_label .icon_checkbox {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/checkbox.png);
+    background-size: 100% 100%;
+    vertical-align: middle;
+}
+
+.checkbox_label.check .icon_checkbox {
+    background-image: url(../images/checkbox_check.png);
+}
+
+.radio_label input[type=radio] {
+    display: none;
+}
+
+.checkbox_label input[type=checkbox] {
+    display: none;
+}
+
+table th {
+    color: #FFF;
+    background-color: #2E86C0;
+}
+
+/*子页面表单*/
+
+.w-input-group {
+    border-bottom: 1px solid #EDEBE9;
+}
+
+.w-input-group label {
+    min-width: 100px;
+    padding-left: 20px;
+}
+
+.w-input-group .input-con {
+    display: inline-block;
+    vertical-align: middle;
+    border-left: 1px solid #EDEBE9;
+    padding: 2px 5px;
+    min-height: 35px;
+}
+
+/*.w-input-group .input-con:after {
+	display: inline-block;
+	height: 100%;
+	content: "";
+	vertical-align: middle;
+}*/
+
+.vermiddle:before {
+    display: inline-block;
+    height: 35px;
+    width: 0;
+    vertical-align: middle;
+    content: "";
+}
+
+.check_radio_con {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.w-input-group input[type=text] {
+    border: none;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 10px;
+    width: 270px;
+    outline: none;
+}
+
+.w-input-group.bnone {
+    border: none;
+}
+
+i.red {
+    font-style: normal;
+    color: red;
+}
+
+/*自定义表格样式*/
+
+.mtable {
+    width: 100%;
+}
+
+.mtable td,
+.mtable th {
+    border: 1px solid #EDEBE9;
+    padding: 12px 0 12px 20px;
+}
+
+.mtable td {
+    color: #999;
+}
+
+.mtable th {
+    background-color: transparent;
+    /*color: #FFFFFF;*/
+    color: #333;
+}
+
+.mtable tr {
+    background-color: #FFFFFF;
+}
+
+.mtable tr:hover {
+    background-color: #DDE9F2;
+}
+
+/*面包屑导航*/
+
+.breadcrumb-con {
+    position: relative;
+    margin: 10px 30px;
+    background-color: #FFF;
+    overflow: hidden;
+}
+
+.breadcrumb-list-con {
+    padding: 20px 35px;
+    margin: 10px 30px;
+    background-color: #FFF;
+    overflow: hidden;
+}
+
+.breadcrumb-content {
+    display: none;
+}
+
+/*自定义按钮*/
+
+.btn.btn_custom {
+    border: 1px solid #2E86C0;
+    background-color: #FFF;
+    padding: 5px 20px;
+    color: #2E86C0;
+}
+
+.btn_custom.active {
+    background-color: #2E86C0;
+    color: #FFF;;
+}
+
+.btn.btn_custom1 {
+    border: 1px solid #2E86C0;
+    background-color: #FFF;
+    color: #2E86C0;
+}
+
+.bgroup span {
+    margin-left: 10px;
+}
+
+/*图表*/
+
+.chart_warp {
+    background-color: #FFF;
+    padding: 10px;
+    margin: 0 30px 10px 30px;
+}
+
+.chart_warp .chart {
+    position: relative;
+    display: none;
+    height: 400px;
+}
+
+.chart_nav {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.chart_nav_btn {
+    display: inline-block;
+    color: #FFF;
+    width: 80px;
+    padding: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chart_nav_btn:active {
+    opacity: 0.6;
+}
+
+.chart_nav_btn.bar {
+    background-color: #E4393C;
+}
+
+.chart_nav_btn.line {
+    background-color: #B9E475
+}
+
+.chart_nav_btn.pie {
+    background-color: #0084C7
+}

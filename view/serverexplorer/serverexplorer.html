@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="../../resources/css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../../resources/css/bootstrap/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="../../resources/css/serverexplorer.css" />
+
+    <title>服务器监控</title>
+</head>
+<body >
+    <div class="single_panel">
+        <div class="gk_top">
+            <div class="gk_text ">
+                <div class="count_group2 mt10 ">
+                    <p class="kltitle_a">192.168.0.1</p>
+                    <p class="kldesc" v-text="today.time">服务器名称</p>
+                    <p class="klnum_a ptb20" v-text="inLineCount">正常</p>
+                    <p class="kldesc" v-text="">备注信息</p>
+                </div>
+            </div>
+            <div class="gk_text">
+                <div class="count_group2 mt10">
+                    <p class="kltitle_a">CPU使用率</p>
+                    <p class="kldesc" v-text="today.time">当前时间：2017-07-14 16:00</p>
+                    <p class="klnum_a ptb20" v-text="inLineCount">40%</p>
+                    <p class="kldesc" v-text="">当前使用1.6G 总大小5G</p>
+                </div>
+            </div>
+            <div class="gk_text">
+                <div class="count_group2 mt10">
+                    <p class="kltitle_a">内存使用率</p>
+                    <p class="kldesc" v-text="today.time">当前时间：2017-07-14 16:00</p>
+                    <p class="klnum_a ptb20" v-text="inLineCount">40%</p>
+                    <p class="kldesc" v-text="">当前使用1.6G 总大小5G</p>
+                </div>
+            </div>
+            <div class="gk_text">
+                <div class="count_group2 mt10">
+                    <p class="kltitle_a">磁盘使用率</p>
+                    <p class="kldesc" v-text="today.time">当前时间：2017-07-14 16:00</p>
+                    <p class="klnum_a ptb20" v-text="inLineCount">40%</p>
+                    <p class="kldesc" v-text="">当前使用1.6G 总大小5G</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="gk_top">
+            <div class="gk_text ">
+                <div class="count_group2 mt10 ">
+                    <p class="kltitle_a">192.168.0.2</p>
+                    <p class="kldesc" v-text="today.time">服务器名称</p>
+                    <p class="klnum_a ptb20" v-text="inLineCount">正常</p>
+                    <p class="kldesc" v-text="">备注信息</p>
+                </div>
+            </div>
+            <div class="gk_text">
+                <div class="count_group2 mt10">
+                    <p class="kltitle_a">CPU使用率</p>
+                    <p class="kldesc" v-text="today.time">当前时间：2017-07-14 16:00</p>
+                    <p class="klnum_a ptb20" v-text="inLineCount">40%</p>
+                    <p class="kldesc" v-text="">当前使用1.6G 总大小5G</p>
+                </div>
+            </div>
+            <div class="gk_text">
+                <div class="count_group2 mt10">
+                    <p class="kltitle_a">内存使用率</p>
+                    <p class="kldesc" v-text="today.time">当前时间：2017-07-14 16:00</p>
+                    <p class="klnum_a ptb20" v-text="inLineCount">40%</p>
+                    <p class="kldesc" v-text="">当前使用1.6G 总大小5G</p>
+                </div>
+            </div>
+            <div class="gk_text">
+                <div class="count_group2 mt10">
+                    <p class="kltitle_a">磁盘使用率</p>
+                    <p class="kldesc" v-text="today.time">当前时间：2017-07-14 16:00</p>
+                    <p class="klnum_a ptb20" v-text="inLineCount">40%</p>
+                    <p class="kldesc" v-text="">当前使用1.6G 总大小5G</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="gk_top">
+            <div class="gk_text ">
+                <div class="count_group2 mt10 ">
+                    <p class="kltitle_a">192.168.0.3</p>
+                    <p class="kldesc" v-text="today.time">服务器名称</p>
+                    <p class="klnum_a ptb20" v-text="inLineCount">正常</p>
+                    <p class="kldesc" v-text="">备注信息</p>
+                </div>
+            </div>
+            <div class="gk_text">
+                <div class="count_group2 mt10">
+                    <p class="kltitle_a">CPU使用率</p>
+                    <p class="kldesc" v-text="today.time">当前时间：2017-07-14 16:00</p>
+                    <p class="klnum_a ptb20" v-text="inLineCount">40%</p>
+                    <p class="kldesc" v-text="">当前使用1.6G 总大小5G</p>
+                </div>
+            </div>
+            <div class="gk_text">
+                <div class="count_group2 mt10">
+                    <p class="kltitle_a">内存使用率</p>
+                    <p class="kldesc" v-text="today.time">当前时间：2017-07-14 16:00</p>
+                    <p class="klnum_a ptb20" v-text="inLineCount">40%</p>
+                    <p class="kldesc" v-text="">当前使用1.6G 总大小5G</p>
+                </div>
+            </div>
+            <div class="gk_text">
+                <div class="count_group2 mt10">
+                    <p class="kltitle_a">磁盘使用率</p>
+                    <p class="kldesc" v-text="today.time">当前时间：2017-07-14 16:00</p>
+                    <p class="klnum_a ptb20" v-text="inLineCount">40%</p>
+                    <p class="kldesc" v-text="">当前使用1.6G 总大小5G</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="gk_top">
+            <div class="gk_text ">
+                <div class="count_group2 mt10 ">
+                    <p class="kltitle_a">192.168.0.4</p>
+                    <p class="kldesc" v-text="today.time">服务器名称</p>
+                    <p class="klnum_a ptb20" v-text="inLineCount">正常</p>
+                    <p class="kldesc" v-text="">备注信息</p>
+                </div>
+            </div>
+            <div class="gk_text">
+                <div class="count_group2 mt10">
+                    <p class="kltitle_a">CPU使用率</p>
+                    <p class="kldesc" v-text="today.time">当前时间：2017-07-14 16:00</p>
+                    <p class="klnum_a ptb20" v-text="inLineCount">40%</p>
+                    <p class="kldesc" v-text="">当前使用1.6G 总大小5G</p>
+                </div>
+            </div>
+            <div class="gk_text">
+                <div class="count_group2 mt10">
+                    <p class="kltitle_a">内存使用率</p>
+                    <p class="kldesc" v-text="today.time">当前时间：2017-07-14 16:00</p>
+                    <p class="klnum_a ptb20" v-text="inLineCount">40%</p>
+                    <p class="kldesc" v-text="">当前使用1.6G 总大小5G</p>
+                </div>
+            </div>
+            <div class="gk_text">
+                <div class="count_group2 mt10">
+                    <p class="kltitle_a">磁盘使用率</p>
+                    <p class="kldesc" v-text="today.time">当前时间：2017-07-14 16:00</p>
+                    <p class="klnum_a ptb20" v-text="inLineCount">40%</p>
+                    <p class="kldesc" v-text="">当前使用1.6G 总大小5G</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="gk_top">
+            <div class="gk_text ">
+                <div class="count_group2 mt10 ">
+                    <p class="kltitle_a">192.168.0.5</p>
+                    <p class="kldesc" v-text="today.time">服务器名称</p>
+                    <p class="klnum_a ptb20" v-text="inLineCount">正常</p>
+                    <p class="kldesc" v-text="">备注信息</p>
+                </div>
+            </div>
+            <div class="gk_text">
+                <div class="count_group2 mt10">
+                    <p class="kltitle_a">CPU使用率</p>
+                    <p class="kldesc" v-text="today.time">当前时间：2017-07-14 16:00</p>
+                    <p class="klnum_a ptb20" v-text="inLineCount">40%</p>
+                    <p class="kldesc" v-text="">当前使用1.6G 总大小5G</p>
+                </div>
+            </div>
+            <div class="gk_text">
+                <div class="count_group2 mt10">
+                    <p class="kltitle_a">内存使用率</p>
+                    <p class="kldesc" v-text="today.time">当前时间：2017-07-14 16:00</p>
+                    <p class="klnum_a ptb20" v-text="inLineCount">40%</p>
+                    <p class="kldesc" v-text="">当前使用1.6G 总大小5G</p>
+                </div>
+            </div>
+            <div class="gk_text">
+                <div class="count_group2 mt10">
+                    <p class="kltitle_a">磁盘使用率</p>
+                    <p class="kldesc" v-text="today.time">当前时间：2017-07-14 16:00</p>
+                    <p class="klnum_a ptb20" v-text="inLineCount">40%</p>
+                    <p class="kldesc" v-text="">当前使用1.6G 总大小5G</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

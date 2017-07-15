@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta http-equiv="Pragma" content="no-cache">
+		<meta http-equiv="Cache-Control" content="no-cache">
+		<link rel="stylesheet" type="text/css" href="../../resources/css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../../resources/libs/bootstrap/css/bootstrap.css" />
+		<link rel="stylesheet" type="text/css" href="../../resources/css/easydropdown.flat.css" />
+		<link rel="stylesheet" type="text/css" href="../../resources/css/common.css" />
+		<title>编辑</title>
+	</head>
+	<body class="bgff" ms-controller="form">
+		<form class="w-form tl">
+			<div class="w-input-group">
+				<label>机构ID</label>
+				<div class="input-con"><input type="text" maxlength="11" ms-duplex="@user.phone_no" id="phone_no" readonly="readonly"></div>
+			</div>
+			<div class="w-input-group">
+				<label>机构名称</label>
+				<div class="input-con"><input type="text" maxlength="10" ms-duplex="@user.real_name"></div>
+			</div>
+			<div class="w-input-group">
+				<label>所在省</label>
+				<div class="input-con"><input type="text" maxlength="36" ms-duplex="@user.email" id="email"></div>
+			</div>
+			<div class="w-input-group">
+				<label>所在市</label>
+				<div class="input-con"><input type="text" maxlength="36" ms-duplex="@user.email" id="email"></div>
+			</div>
+			<div class="w-input-group">
+				<label>联系人</label>
+				<div class="input-con"><input type="text" maxlength="36" ms-duplex="@user.email" id="email"></div>
+			</div>
+			<div class="w-input-group">
+				<label>联系电话</label>
+				<div class="input-con"><input type="text" maxlength="36" ms-duplex="@user.email" id="email"></div>
+			</div>
+			<div class="w-input-group">
+				<label>公司类别</label>
+				<div class="input-con vermiddle">
+					<span class="check_radio_con"><input type="radio" value="1" ms-duplex-string="@user.sex" name="sex" checked="checked" >港内</span>
+					<span class="check_radio_con ml10"><input type="radio" value="2" ms-duplex-string="@user.sex" name="sex">港外</span></div>
+			</div>
+			<div class="w-input-group">
+				<label>业务范围</label>
+				<div class="input-con"><input type="text" maxlength="36" ms-duplex="@user.email" id="email"></div>
+			</div>
+			<div class="w-input-group">
+				<label>创建者</label>
+				<div class="input-con"><input type="text" maxlength="36" ms-duplex="@user.email" id="email"></div>
+			</div>
+
+			<div class="w-input-group">
+				<label>创建时间</label>
+				<div class="input-con"><input type="text" ms-duplex="@user.birthday" maxlength="16" readonly="readonly" id="birthday"></div>
+			</div>
+			<div class="w-input-group">
+				<label>机构简称</label>
+				<div class="input-con"><input type="text" maxlength="36" ms-duplex="@user.email" id="email"></div>
+			</div>
+			<div class="w-input-group">
+				<label>机构地址</label>
+				<div class="input-con"><input type="text" maxlength="36" ms-duplex="@user.email" id="email"></div>
+			</div>
+			<div class="w-input-group">
+				<label>机构性质</label>
+				<div class="input-con"><input type="text" maxlength="36" ms-duplex="@user.address"></div>
+			</div>
+			<div class="w-input-group">
+				<label>机构编码（企业编码）</label>
+				<div class="input-con"><input type="text" maxlength="36" ms-duplex="@user.address"></div>
+			</div>
+			<div class="w-input-group">
+				<label>机构是否有效</label>
+				<div class="input-con vermiddle">
+					<span class="check_radio_con"><input type="radio" value="1" ms-duplex-string="@user.sex" name="sex" checked="checked" >有效</span>
+					<span class="check_radio_con ml10"><input type="radio" value="2" ms-duplex-string="@user.sex" name="sex">无效</span></div>
+			</div>
+			<div class="w-input-group">
+				<label>平台唯一编码</label>
+				<div class="input-con"><input type="text" maxlength="36" ms-duplex="@user.address"></div>
+			</div>
+			<div class="w-input-group bnone mt20 mb10 tc js-footer-btn">
+				<span class="btn btn-primary input-sm js-submit">确定</span>
+				<span class="btn btn-default input-sm ml10">取消</span>
+			</div>
+		</form>
+		<script type="text/javascript" src="../../resources/require.js"></script>
+		<script type="text/javascript" src="../../resources/modules/vip/add.js"></script>
+	</body>
+</html>
